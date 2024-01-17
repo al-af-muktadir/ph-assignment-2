@@ -358,7 +358,7 @@ text-align: center;
         flex-direction: column;
     }
     .float{
-        width: 214.023px;
+        width:60%;
 height: 79.268px;
 bottom: 140px;
        left:130px; 
@@ -378,5 +378,7 @@ bottom: 140px;
 margin-left: 15px;
 width: 100%;
 }
-    
+    .field{
+        width: 60%;
+    }
  }
