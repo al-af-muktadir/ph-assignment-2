@@ -212,13 +212,13 @@ border: 1px solid #FF5400;
 .float{
     border-radius: 16px;
 background: #FF5400;
-width: 324px;
-height: 120px;
+width: 45%;
+height:20%;
 padding: 5px;
 position: relative;
-left:335px;
-bottom: 200px;
-transform: rotate(-30deg);
+left:350px;
+bottom: 185px;
+transform: rotate(-25deg);
 
 text-align: center;
 }
@@ -264,12 +264,13 @@ justify-content: center;}
     padding: 40px;
 }
 /*responsive*/
- @media screen and (max-width:576px) {
-
-   .main-part,.heads{
-        padding-left: 20px;
-        padding-right: 20px;
-    }
+ @media screen and (max-width:600px) {
+.main-part,.heads{
+    padding-left: 15px;
+    padding-right: 15px;
+   
+}
+  
 nav{
     justify-content: space-around;
 }
@@ -359,9 +360,9 @@ text-align: center;
     }
     .float{
         width:60%;
-height: 79.268px;
+height: 50%;
 bottom: 140px;
-       left:130px; 
+       left:135px; 
     }
     .float>p{
         margin-bottom: 0px;
@@ -375,7 +376,7 @@ bottom: 140px;
             font-weight: 800;
         }
 .newsletter>div button{
-margin-left: 15px;
+margin-left: 10px;
 width: 100%;
 }
     .field{
