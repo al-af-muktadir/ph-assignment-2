@@ -77,18 +77,27 @@ width: 100%;
     font-weight: 400;
 }
 .form-bar{
+    width: 170px;
     margin-right: 20px;
-    padding: 16px 50px 16px 10px;
+   padding: 16px 20px 16px 16px;
     border-radius: 8px;
 background: #FFF;
 border: 0px;
 }
 .btn-primary{
+    padding-top: 16px;
+    padding-bottom:16px ;
+    width: 170px;
     color: #FFF;
     border-radius: 8px;
 background: #FF5400;
 border: 0px;
-padding: 16px 60px 16px 40px;
+text-align: center;
+}
+.form-box{
+    padding: 16px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
 }
 /*popular touurs*/
 .popular-tours{
@@ -255,9 +264,9 @@ justify-content: center;}
     padding: 40px;
 }
 /*responsive*/
- @media screen and (max-width:600px) {
+ @media screen and (max-width:576px) {
 
-    body{
+   .main-part,.heads{
         padding-left: 20px;
         padding-right: 20px;
     }
@@ -293,28 +302,32 @@ height: 483px;
         font-size: 1rem;
         font-weight: 400;
     }
+    .form-box{
+        border: 2px solid;
+padding-right: 0px;
+padding-left: 0px;
+text-align: center;
+    }
     .form-bar{
-        margin-right: 20px;
-        padding: 16px 50px 16px 10px;
+        width: 200px;
         border-radius: 8px;
     background: #FFF;
     border: 0px;
+    }
+    .drop-down{
+        width:240px;
     }
     .btn-primary{
         color: #FFF;
         border-radius: 8px;
     background: #FF5400;
     border: 0px;
-    padding: 16px 60px 16px 40px;
+    padding: 16px 40px 16px 40px;
     }
-    #drop-down{
-        display:flex;
-        flex-direction: column;
-        margin-left: 80px;
-       
-    }
+    
     .form-bar{
-        width: 50%;
+        
+        
         margin-top: 10px;
         margin-bottom: 15px;
     }
